@@ -416,7 +416,7 @@
         "uuid": "00b28691-5113-4bf2-bf96-cb8ff43f915f"
       }
     ],
-    "used_designators": "#PWR16-27,#PWR201-209,#PWR211-214,F1,FB1,LED201-202,C15-17,C201-206,JP1,SW1,SW201,U3,U201,R6",
+    "used_designators": "IC1,C1,C18-21,U6,SW2,#PWR28-29,FB2",
     "variants": []
   },
   "sheets": [
