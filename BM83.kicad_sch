@@ -8118,6 +8118,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "・BM83→PCM5102A\n・ライン入力\n・USB入力？\nこれらの後段でシングルエンド→差動変換\n・電圧増幅段:OPAMP\n・出力段:ダイヤモンドバッファ\n・電源20V ACアダプタ\n\n数値要件は手元の紙参照"
+		(exclude_from_sim no)
+		(at 243.586 29.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "472f2c90-17bd-4978-a3b5-b900c1d8ee49")
+	)
 	(text "heatsink"
 		(exclude_from_sim no)
 		(at 343.662 147.32 0)
