@@ -302,7 +302,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 1,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -416,7 +416,7 @@
         "uuid": "00b28691-5113-4bf2-bf96-cb8ff43f915f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "HS301-304,HS401-404,Q101-102,Q301-318,Q325,Q401-418,D101-111,D401-404,#PWR101-141,#PWR201-233,#PWR301-322,#PWR401-422,#PWR501-533,C101-118,C201-218,C301-315,C401-415,C501-518,FB101-103,RV201-203,RV301-303,RV401,RV501-503,F101,H101-104,IC101,IC401,J101-106,J401,JP101-102,LED201-202,LED501-502,K101,K401,L101-102,L401-402,NT101-102,PS101-102,PS401-402,R101-116,R201-216,R301-328,R401-428,R501-504,SW101-102,SW201-202,SW401,SW501-502,U101-103,U201-204,U301-303,U401-402,U501-504",
     "variants": []
   },
   "sheets": [
@@ -425,20 +425,16 @@
       "ルート"
     ],
     [
+      "514f5709-5940-41c3-bb07-e91835a532d4",
+      "DAC"
+    ],
+    [
       "c1e625fc-2efb-41b9-b8ae-8253e137b840",
       "Equalizer"
     ],
     [
       "ecc3a0ee-69da-4eec-b496-26044ba3a32d",
       "Amplifier"
-    ],
-    [
-      "91566e44-dea6-486b-a621-3d20a30261fd",
-      "Power"
-    ],
-    [
-      "514f5709-5940-41c3-bb07-e91835a532d4",
-      "DAC"
     ]
   ],
   "text_variables": {},

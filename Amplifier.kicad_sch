@@ -864,7 +864,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RV_2C_1"
+		(symbol "MysymbolLibrary:RV_2C"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -933,7 +933,7 @@
 					)
 				)
 			)
-			(symbol "RV_2C_1_0_1"
+			(symbol "RV_2C_0_1"
 				(rectangle
 					(start 1.016 2.54)
 					(end -1.016 -2.54)
@@ -970,7 +970,7 @@
 					)
 				)
 			)
-			(symbol "RV_2C_1_1_1"
+			(symbol "RV_2C_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1026,7 +1026,7 @@
 					)
 				)
 			)
-			(symbol "RV_2C_1_2_1"
+			(symbol "RV_2C_2_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1066,6 +1066,638 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MysymbolLibrary:TPC6901A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPC6901A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPC6901A_0_1"
+				(polyline
+					(pts
+						(xy -5.08 -15.24) (xy -1.905 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -14.605) (xy 0 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -15.875) (xy 0 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -17.145) (xy -1.905 -13.335)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -15.24)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -13.462) (xy -0.762 -12.954) (xy -1.27 -13.97) (xy -0.254 -13.462)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -8.89) (xy 9.525 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -6.985) (xy 9.525 -10.795)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.16 -8.89)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TPC6901A_1_1"
+				(polyline
+					(pts
+						(xy 9.525 -8.255) (xy 11.43 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -9.525) (xy 11.43 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.668) (xy 10.668 -10.16) (xy 11.176 -11.176) (xy 10.16 -10.668)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at 3.81 -8.89 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -15.24 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -13.97 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TPC6901A_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q307"
+				(at -3.556 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPC6901A"
+				(at -3.556 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPC6901A_1_0_1"
+				(polyline
+					(pts
+						(xy -19.05 -15.24) (xy -15.875 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.875 -17.145) (xy -15.875 -13.335)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -15.24 -15.24)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -8.89) (xy -4.445 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -6.985) (xy -4.445 -10.795)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -8.255) (xy -2.54 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -9.525) (xy -2.54 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 -8.89)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 -10.668) (xy -3.302 -11.176) (xy -3.81 -10.16) (xy -2.794 -10.668)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "TPC6901A_1_1_1"
+				(polyline
+					(pts
+						(xy -15.875 -14.605) (xy -13.97 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.875 -15.875) (xy -13.97 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 -13.462) (xy -14.732 -13.97) (xy -14.224 -12.954) (xy -15.24 -13.462)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -21.59 -15.24 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -13.97 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -8.89 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -20.32 90)
+					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -4203,7 +4835,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05127c18-86d0-4fca-a624-657e4848d02b")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0413"
 			(at 39.37 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4263,7 +4895,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0301")
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -4281,7 +4913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0661c988-5e34-4690-8684-f59f138f7ed9")
-		(property "Reference" "R317"
+		(property "Reference" "R424"
 			(at 162.56 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,7 +4977,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R317")
+					(reference "R424")
 					(unit 1)
 				)
 			)
@@ -4362,7 +4994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0669490e-c840-4d90-bf66-0d3dc8b527cd")
-		(property "Reference" "R307"
+		(property "Reference" "R401"
 			(at 111.76 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4426,7 +5058,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R307")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -4444,7 +5076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08a1a57f-1cd9-4a6b-8ec0-d9e83a9e38d5")
-		(property "Reference" "R304"
+		(property "Reference" "R421"
 			(at 73.66 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4508,7 +5140,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R304")
+					(reference "R421")
 					(unit 1)
 				)
 			)
@@ -4525,7 +5157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d9c26b1-c395-4a7a-9e23-d572a255a4ae")
-		(property "Reference" "R309"
+		(property "Reference" "R419"
 			(at 111.76 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4589,7 +5221,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R309")
+					(reference "R419")
 					(unit 1)
 				)
 			)
@@ -4607,7 +5239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1014835f-8092-4cc6-8e07-cccb74cc12ac")
-		(property "Reference" "U301"
+		(property "Reference" "U401"
 			(at 250.19 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4751,7 +5383,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "U301")
+					(reference "U401")
 					(unit 5)
 				)
 			)
@@ -4769,7 +5401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "122d4fbd-b1e5-432f-854a-714f63d24a4b")
-		(property "Reference" "U302"
+		(property "Reference" "U402"
 			(at 275.59 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4913,7 +5545,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "U302")
+					(reference "U402")
 					(unit 5)
 				)
 			)
@@ -4930,7 +5562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14ce191d-f016-4eac-8e24-6925e8cc15fd")
-		(property "Reference" "U302"
+		(property "Reference" "U402"
 			(at 213.36 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5072,7 +5704,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "U302")
+					(reference "U402")
 					(unit 2)
 				)
 			)
@@ -5090,7 +5722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18e94a9c-ae4f-4d39-8dd5-e5300eb14aa7")
-		(property "Reference" "Q316"
+		(property "Reference" "Q416"
 			(at 162.306 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5157,7 +5789,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q316")
+					(reference "Q416")
 					(unit 1)
 				)
 			)
@@ -5175,7 +5807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cbe533c-9334-4618-9a80-fe5cb98fef73")
-		(property "Reference" "R318"
+		(property "Reference" "R426"
 			(at 162.56 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5239,92 +5871,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R318")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_ECB")
-		(at 107.95 54.61 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20acf89d-10bc-4819-a787-6f5fb6d7e181")
-		(property "Reference" "Q301"
-			(at 112.014 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PNP"
-			(at 112.014 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 113.03 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PNP transistor, emitter/collector/base"
-			(at 107.95 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "842696e7-3313-4137-8d28-9475d457a597")
-		)
-		(pin "3"
-			(uuid "d2d565e6-9bd6-4342-9a77-a4bd58ca2fe4")
-		)
-		(pin "1"
-			(uuid "e873de5d-a2f9-42a3-99c4-4b59087a8b6a")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q301")
+					(reference "R426")
 					(unit 1)
 				)
 			)
@@ -5342,7 +5889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21fd59f9-4f16-43de-897f-11a7525fb1b4")
-		(property "Reference" "R303"
+		(property "Reference" "R411"
 			(at 73.66 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5406,7 +5953,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R303")
+					(reference "R411")
 					(unit 1)
 				)
 			)
@@ -5423,7 +5970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25a89adc-087f-4e94-8075-9e3e38db9e16")
-		(property "Reference" "R314"
+		(property "Reference" "R425"
 			(at 130.81 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5487,7 +6034,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R314")
+					(reference "R425")
 					(unit 1)
 				)
 			)
@@ -5505,7 +6052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26aa03d0-1d48-49fa-9b6a-ee2db22a2532")
-		(property "Reference" "U301"
+		(property "Reference" "U401"
 			(at 58.42 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5647,7 +6194,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "U301")
+					(reference "U401")
 					(unit 1)
 				)
 			)
@@ -5664,7 +6211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2850f45c-5025-46cc-ab2b-a534bd0644be")
-		(property "Reference" "R313"
+		(property "Reference" "R423"
 			(at 130.81 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5728,7 +6275,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R313")
+					(reference "R423")
 					(unit 1)
 				)
 			)
@@ -5746,7 +6293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29536759-736f-4977-a369-3c75fa030b3f")
-		(property "Reference" "R324"
+		(property "Reference" "R416"
 			(at 213.36 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5808,7 +6355,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R324")
+					(reference "R416")
 					(unit 1)
 				)
 			)
@@ -5825,7 +6372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cffa53a-bc20-498c-a67d-93631ca39d61")
-		(property "Reference" "R326"
+		(property "Reference" "R422"
 			(at 224.79 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5889,7 +6436,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R326")
+					(reference "R422")
 					(unit 1)
 				)
 			)
@@ -5906,7 +6453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dbada9e-0101-417b-964d-205950493c2f")
-		(property "Reference" "#PWR0320"
+		(property "Reference" "#PWR0403"
 			(at 248.92 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -5966,91 +6513,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0320")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_ECB")
-		(at 185.42 54.61 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "30ad7088-d73d-4c28-820b-915170e1d90c")
-		(property "Reference" "Q321"
-			(at 181.356 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PNP"
-			(at 181.356 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 180.34 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PNP transistor, emitter/collector/base"
-			(at 185.42 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0ddfd8eb-7e83-4020-9486-566349cc6798")
-		)
-		(pin "3"
-			(uuid "af9ded42-de45-4f62-827c-350602e86635")
-		)
-		(pin "1"
-			(uuid "4935d24d-8d4e-450a-8d86-a6052cae067a")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q321")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -6067,7 +6530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "334d5025-4e9b-4759-b989-7851ec32aa85")
-		(property "Reference" "Q313"
+		(property "Reference" "Q404"
 			(at 162.306 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6134,7 +6597,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q313")
+					(reference "Q404")
 					(unit 1)
 				)
 			)
@@ -6151,7 +6614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "391b1b9c-dbbf-479c-9bee-c20e8b556924")
-		(property "Reference" "#PWR0322"
+		(property "Reference" "#PWR0408"
 			(at 261.62 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6211,7 +6674,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0322")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -6228,7 +6691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "391fd9e3-65c9-49aa-9335-51b4c8447140")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0415"
 			(at 116.84 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6288,7 +6751,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0307")
+					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -6306,7 +6769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3af9ecd7-f871-4a81-a48e-f5d204a394fb")
-		(property "Reference" "#PWR0314"
+		(property "Reference" "#PWR0420"
 			(at 223.52 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6366,7 +6829,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0314")
+					(reference "#PWR0420")
 					(unit 1)
 				)
 			)
@@ -6384,7 +6847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "428d823a-17cc-4f51-a624-1672c532403c")
-		(property "Reference" "R322"
+		(property "Reference" "R428"
 			(at 181.61 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6448,7 +6911,100 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R322")
+					(reference "R428")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MysymbolLibrary:TPC6901A")
+		(at 110.49 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42f83c0b-c03c-42ce-a8e9-bb2652c0f687")
+		(property "Reference" "Q411"
+			(at 109.474 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPC6901A"
+			(at 109.474 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b8f7a669-8e29-4028-aeb1-90ec38852515")
+		)
+		(pin "5"
+			(uuid "15d314ee-10bc-4bc6-9b65-1317b30bcdea")
+		)
+		(pin "4"
+			(uuid "0f2bc54d-2497-4116-a7b5-b286bb52178d")
+		)
+		(pin "6"
+			(uuid "3d39a205-1fa4-4613-90bc-371696cd356f")
+		)
+		(pin "2"
+			(uuid "6b43f6bb-82fb-46fd-97a5-4e563086e73b")
+		)
+		(pin "1"
+			(uuid "95a4e198-2344-442c-ab60-f33a4811b2d9")
+		)
+		(instances
+			(project "BM83"
+				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
+					(reference "Q411")
 					(unit 1)
 				)
 			)
@@ -6466,7 +7022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44328ae4-140b-4195-8e5a-a24a33451cda")
-		(property "Reference" "#PWR0315"
+		(property "Reference" "#PWR0418"
 			(at 254 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6526,7 +7082,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0315")
+					(reference "#PWR0418")
 					(unit 1)
 				)
 			)
@@ -6543,7 +7099,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44ad1c9f-b32c-41e1-9f5d-844a6d32d579")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0411"
 			(at 74.93 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6603,7 +7159,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0303")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -6620,7 +7176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cea9071-3412-493f-858b-8d547729b336")
-		(property "Reference" "Q318"
+		(property "Reference" "Q408"
 			(at 169.926 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6687,8 +7243,197 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q318")
+					(reference "Q408")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TPC6901A_1")
+		(lib_id "MysymbolLibrary:TPC6901A")
+		(at 124.46 144.78 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ea14635-2c2c-42c0-bbc3-02cac7cd1a89")
+		(property "Reference" "Q417"
+			(at 109.22 134.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPC6901A"
+			(at 109.22 137.414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7669b3fd-da46-4d70-ae12-58eccc2005e8")
+		)
+		(pin "5"
+			(uuid "a71027bd-692a-4493-b2c1-7b8113a07a86")
+		)
+		(pin "4"
+			(uuid "7b879565-5eac-4342-88c7-4ec0397367ae")
+		)
+		(pin "6"
+			(uuid "7841e6ec-192e-4f88-9551-1590fd0ac3ee")
+		)
+		(pin "2"
+			(uuid "f4a2647a-e472-4a29-bd99-ec44ad8b8d23")
+		)
+		(pin "1"
+			(uuid "b9953e06-0284-47da-b584-8546238f54ce")
+		)
+		(instances
+			(project "BM83"
+				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
+					(reference "Q417")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MysymbolLibrary:RV_2C")
+		(at 259.08 88.9 0)
+		(mirror y)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "508ba1f8-7f3a-4a18-904a-cf84565d516f")
+		(property "Reference" "RV401"
+			(at 260.35 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 260.35 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MyLibrary:RV_2C"
+			(at 259.08 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "843c8808-92e6-4376-8e90-ed8978adef3c")
+		)
+		(pin "3"
+			(uuid "0a18d1c4-4cea-43fb-a96e-4d2aefcf770f")
+		)
+		(pin "5"
+			(uuid "ccf44b55-900a-4212-9a23-bb4873d3ab33")
+		)
+		(pin "4"
+			(uuid "2ac4e01c-6dec-47a4-9f05-b631449468e4")
+		)
+		(pin "6"
+			(uuid "de295008-b398-41aa-aa1d-e3add73e0dbe")
+		)
+		(pin "1"
+			(uuid "75d38831-a4fb-4933-8474-58907056956f")
+		)
+		(instances
+			(project "BM83"
+				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
+					(reference "RV401")
+					(unit 2)
 				)
 			)
 		)
@@ -6705,7 +7450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53aac9a1-d097-48ae-8516-f6f40246401b")
-		(property "Reference" "#PWR0316"
+		(property "Reference" "#PWR0414"
 			(at 259.08 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6765,7 +7510,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0316")
+					(reference "#PWR0414")
 					(unit 1)
 				)
 			)
@@ -6783,7 +7528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5987b57b-e75d-41b4-8f43-6a834c3711b9")
-		(property "Reference" "#PWR0313"
+		(property "Reference" "#PWR0412"
 			(at 223.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6843,7 +7588,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0313")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -6861,7 +7606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cc79d94-85c0-4c05-b1c6-2190031de351")
-		(property "Reference" "Q322"
+		(property "Reference" "Q406"
 			(at 181.356 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6928,7 +7673,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q322")
+					(reference "Q406")
 					(unit 1)
 				)
 			)
@@ -6946,7 +7691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e341802-7b6e-4351-af01-5f58edf19327")
-		(property "Reference" "Q309"
+		(property "Reference" "Q403"
 			(at 131.064 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7013,7 +7758,100 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q309")
+					(reference "Q403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MysymbolLibrary:TPC6901A")
+		(at 110.49 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f229189-db6e-4cf1-93d5-dce0beff45c9")
+		(property "Reference" "Q401"
+			(at 109.474 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPC6901A"
+			(at 109.474 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "60d31df0-6506-41a1-a822-08483094374f")
+		)
+		(pin "5"
+			(uuid "397b944b-156d-44d2-8b44-fac0bc7ce565")
+		)
+		(pin "4"
+			(uuid "dc22bd2e-85bf-4a37-88ac-6776c109f6f4")
+		)
+		(pin "6"
+			(uuid "2f9bc5f7-bcf2-423b-a108-4347717e7062")
+		)
+		(pin "2"
+			(uuid "d95a5f9c-e7d1-4a0b-8caf-b887ba1b7981")
+		)
+		(pin "1"
+			(uuid "fd1075c1-a7a2-42e4-8c91-77d98cd683ab")
+		)
+		(instances
+			(project "BM83"
+				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
+					(reference "Q401")
 					(unit 1)
 				)
 			)
@@ -7030,7 +7868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "605292c3-0a7c-4034-8828-44e15e80d632")
-		(property "Reference" "Q312"
+		(property "Reference" "Q415"
 			(at 131.064 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7097,7 +7935,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q312")
+					(reference "Q415")
 					(unit 1)
 				)
 			)
@@ -7114,7 +7952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6082b07f-721b-4551-b2e5-89a611385335")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR0405"
 			(at 116.84 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7174,7 +8012,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0305")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -7192,7 +8030,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6133e95b-59a3-48f1-9db7-b0324aafaa2a")
-		(property "Reference" "Q311"
+		(property "Reference" "Q413"
 			(at 131.064 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7259,7 +8097,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q311")
+					(reference "Q413")
 					(unit 1)
 				)
 			)
@@ -7276,7 +8114,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6138d282-2fdf-4dd7-a312-b57a7ac4da6f")
-		(property "Reference" "R325"
+		(property "Reference" "R412"
 			(at 224.79 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7340,7 +8178,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R325")
+					(reference "R412")
 					(unit 1)
 				)
 			)
@@ -7357,7 +8195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61f1ead5-6d3c-415e-8b83-fe58ada9e0c1")
-		(property "Reference" "#PWR0321"
+		(property "Reference" "#PWR0407"
 			(at 236.22 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7417,102 +8255,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0321")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "RV_2C_1")
-		(lib_id "MysymbolLibrary:RV_2C")
-		(at 259.08 88.9 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "631f599e-3309-4afd-9286-09dfe61f000d")
-		(property "Reference" "RV302"
-			(at 260.35 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 260.35 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MyLibrary:SL4515G"
-			(at 259.08 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "eb53bbec-c8a4-4c66-b3a4-1854d7405d9a")
-		)
-		(pin "5"
-			(uuid "b1ef17ab-540a-4dba-9c23-2249d88a1524")
-		)
-		(pin "6"
-			(uuid "6c49bc51-f30b-40ed-b7b7-8bfd364a8e6e")
-		)
-		(pin "3"
-			(uuid "86ef2a9b-fd5d-4c47-88a2-a0e0888dbfcf")
-		)
-		(pin "1"
-			(uuid "48278db6-4e5a-444d-b121-8bc76c7af01d")
-		)
-		(pin "4"
-			(uuid "0d8aabe0-5059-45ee-86de-0fa60da84571")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "RV302")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -7529,7 +8272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63749022-d6c0-4332-ad4d-c2d499ec3979")
-		(property "Reference" "R305"
+		(property "Reference" "R407"
 			(at 85.09 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7591,7 +8334,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R305")
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -7608,7 +8351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6564094d-80be-493d-a3ab-77df72fd5733")
-		(property "Reference" "Q302"
+		(property "Reference" "Q405"
 			(at 112.014 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7675,91 +8418,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_ECB")
-		(at 119.38 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6b36e5b0-03d1-4655-8f9d-f10abc088183")
-		(property "Reference" "Q305"
-			(at 123.444 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 123.444 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 124.46 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/collector/base"
-			(at 119.38 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1170360a-1522-4d99-9b4a-8c1c3eb31e51")
-		)
-		(pin "3"
-			(uuid "0ab34577-834c-4221-b7a4-612dc5844351")
-		)
-		(pin "2"
-			(uuid "e94e751c-9b50-4f49-b4b6-31a16a723a3b")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q305")
+					(reference "Q405")
 					(unit 1)
 				)
 			)
@@ -7777,7 +8436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b3f9b53-68d7-4ca0-bc52-ec981c007338")
-		(property "Reference" "R301"
+		(property "Reference" "R413"
 			(at 49.53 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7841,7 +8500,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R301")
+					(reference "R413")
 					(unit 1)
 				)
 			)
@@ -7858,7 +8517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bd1a669-5036-4900-91ec-f69945b95589")
-		(property "Reference" "#PWR0319"
+		(property "Reference" "#PWR0401"
 			(at 248.92 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -7918,7 +8577,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0319")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -7935,7 +8594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6eaf7144-be7c-459a-810b-376aba4edbe4")
-		(property "Reference" "Q315"
+		(property "Reference" "Q414"
 			(at 162.306 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8002,177 +8661,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q315")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_ECB")
-		(at 173.99 48.26 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7335a7f8-8f9c-4e79-a047-f3ee8c930737")
-		(property "Reference" "Q317"
-			(at 169.926 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 169.926 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 168.91 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/collector/base"
-			(at 173.99 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de20d918-29dc-4749-a676-6a420cd46038")
-		)
-		(pin "3"
-			(uuid "ab5b66b0-225b-4618-8129-e464c7be113f")
-		)
-		(pin "2"
-			(uuid "80c427d4-316b-4467-af8c-95b0ceeff843")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q317")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_ECB")
-		(at 107.95 116.84 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73b58fb5-dde2-426f-a0d3-ef74f4e5ad3b")
-		(property "Reference" "Q303"
-			(at 112.014 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PNP"
-			(at 112.014 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 113.03 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PNP transistor, emitter/collector/base"
-			(at 107.95 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bdb4ba49-8b8c-433c-b49c-4e8d0bbd6c8e")
-		)
-		(pin "3"
-			(uuid "c4151611-2a2b-48e7-8eb3-3344999075c8")
-		)
-		(pin "1"
-			(uuid "49b0d75d-6a44-4224-86b1-82196e713d4d")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q303")
+					(reference "Q414")
 					(unit 1)
 				)
 			)
@@ -8190,7 +8679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7430e013-b2be-41ac-9cd7-04f83b37e928")
-		(property "Reference" "Q306"
+		(property "Reference" "Q407"
 			(at 123.444 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8257,92 +8746,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_ECB")
-		(at 119.38 135.89 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "74ec973b-e6d1-4815-97c0-8bddc599922c")
-		(property "Reference" "Q308"
-			(at 123.444 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PNP"
-			(at 123.444 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 124.46 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PNP transistor, emitter/collector/base"
-			(at 119.38 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0672e4e8-fd07-4a04-9e68-7e72a4a12d25")
-		)
-		(pin "3"
-			(uuid "fc8d9230-a8a7-46ca-90ac-4bd746e3a971")
-		)
-		(pin "1"
-			(uuid "a776bf8b-7adf-48ff-bd48-285f7bba7a1d")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q308")
+					(reference "Q407")
 					(unit 1)
 				)
 			)
@@ -8359,7 +8763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77592d25-ea60-43f4-a88a-e009b6522655")
-		(property "Reference" "U301"
+		(property "Reference" "U401"
 			(at 248.92 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8501,7 +8905,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "U301")
+					(reference "U401")
 					(unit 4)
 				)
 			)
@@ -8518,7 +8922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81789171-5b13-4997-b3fa-0663fafc6c54")
-		(property "Reference" "R311"
+		(property "Reference" "R403"
 			(at 130.81 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8582,7 +8986,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R311")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -8600,7 +9004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8375b6db-2801-41bf-8746-9a00fcd348f0")
-		(property "Reference" "R327"
+		(property "Reference" "R418"
 			(at 240.03 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8662,7 +9066,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R327")
+					(reference "R418")
 					(unit 1)
 				)
 			)
@@ -8679,7 +9083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c2fe072-79ad-43ea-92b0-3271b822791f")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0416"
 			(at 176.53 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8739,7 +9143,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0311")
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -8757,7 +9161,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ceed183-01b9-4f27-b99c-e9d67aed228a")
-		(property "Reference" "R315"
+		(property "Reference" "R404"
 			(at 162.56 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8821,7 +9225,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R315")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -8839,7 +9243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d10412c-1dd4-4712-90e4-339aaa76affd")
-		(property "Reference" "Q314"
+		(property "Reference" "Q410"
 			(at 162.306 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8906,7 +9310,195 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q314")
+					(reference "Q410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MysymbolLibrary:TPC6901A")
+		(at 182.88 39.37 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e23dd86-ca91-40c0-ba01-6fb9858ac40d")
+		(property "Reference" "Q402"
+			(at 183.896 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPC6901A"
+			(at 183.896 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3ffb89cb-442f-43b8-a42e-e274032c0fd3")
+		)
+		(pin "5"
+			(uuid "6aabf73c-0d23-4e48-a875-abead579e3e4")
+		)
+		(pin "4"
+			(uuid "36546c52-e763-46b8-bda6-5b4a11d4f091")
+		)
+		(pin "6"
+			(uuid "330047eb-c73e-4582-b0a8-9ef53a79446f")
+		)
+		(pin "2"
+			(uuid "b228000a-ec1b-44a4-bdc1-ec29c828e6c0")
+		)
+		(pin "1"
+			(uuid "997ce861-c92d-47a7-bb98-1de5c6539ad9")
+		)
+		(instances
+			(project "BM83"
+				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
+					(reference "Q402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MysymbolLibrary:TPC6901A")
+		(at 182.88 101.6 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92a31994-4da7-4493-bf74-131254e38988")
+		(property "Reference" "Q412"
+			(at 183.896 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPC6901A"
+			(at 183.896 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "825822d8-81dc-4f20-af2f-0e4045c6fc3c")
+		)
+		(pin "5"
+			(uuid "775ad8eb-cc3a-4ed1-8a53-7dffd4d4e627")
+		)
+		(pin "4"
+			(uuid "601f9606-577e-4f46-a6ad-3ca69cf00736")
+		)
+		(pin "6"
+			(uuid "90124693-7cbd-4732-bc83-89d26c23808c")
+		)
+		(pin "2"
+			(uuid "ec651752-85dd-4c92-af1c-3d19bc08effb")
+		)
+		(pin "1"
+			(uuid "6bc33e44-3cdb-4822-a2e0-10f893287921")
+		)
+		(instances
+			(project "BM83"
+				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
+					(reference "Q412")
 					(unit 1)
 				)
 			)
@@ -8924,7 +9516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94c62b68-34b8-4d76-aef9-b82f59e43660")
-		(property "Reference" "HS304"
+		(property "Reference" "HS404"
 			(at 273.05 66.6749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8982,7 +9574,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "HS304")
+					(reference "HS404")
 					(unit 1)
 				)
 			)
@@ -9000,7 +9592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94ff7ff1-39e3-4f6b-bc0b-33e2944f67a4")
-		(property "Reference" "R323"
+		(property "Reference" "R408"
 			(at 213.36 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9062,7 +9654,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R323")
+					(reference "R408")
 					(unit 1)
 				)
 			)
@@ -9079,7 +9671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96e186be-3603-46a2-b563-64a5c95b1025")
-		(property "Reference" "#PWR0306"
+		(property "Reference" "#PWR0409"
 			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9139,7 +9731,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0306")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -9156,7 +9748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b03e411-6d26-408a-b19b-0b579174ed7d")
-		(property "Reference" "R306"
+		(property "Reference" "R415"
 			(at 85.09 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9218,7 +9810,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R306")
+					(reference "R415")
 					(unit 1)
 				)
 			)
@@ -9236,7 +9828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b5c39e4-0dfe-404a-8481-2d2d005903ba")
-		(property "Reference" "HS302"
+		(property "Reference" "HS403"
 			(at 255.27 66.6749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9294,15 +9886,16 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "HS302")
+					(reference "HS403")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_ECB")
-		(at 119.38 110.49 0)
+		(lib_name "TPC6901A_1")
+		(lib_id "MysymbolLibrary:TPC6901A")
+		(at 168.91 144.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9310,31 +9903,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9f36d87a-ff9e-49fa-beea-4f288641030c")
-		(property "Reference" "Q307"
-			(at 123.444 109.22 0)
+		(uuid "9c767713-9885-4d93-8f23-d65034aae9a7")
+		(property "Reference" "Q418"
+			(at 184.15 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "NPN"
-			(at 123.444 111.76 0)
+		(property "Value" "TPC6901A"
+			(at 184.15 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 124.46 107.95 0)
+		(property "Footprint" ""
+			(at 168.91 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9345,7 +9938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 110.49 0)
+			(at 168.91 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9355,8 +9948,8 @@
 				)
 			)
 		)
-		(property "Description" "NPN transistor, emitter/collector/base"
-			(at 119.38 110.49 0)
+		(property "Description" ""
+			(at 168.91 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9365,20 +9958,29 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "907c71e2-ae4a-49c0-a5ca-2de72e1aac97")
 		)
 		(pin "3"
-			(uuid "c5e36195-9d24-4143-977c-cae7b07cc59e")
+			(uuid "5041c1d5-577b-46f4-b218-798511a72d6e")
+		)
+		(pin "5"
+			(uuid "764ddd7e-dd91-49b8-91a6-1b0ef36b7690")
+		)
+		(pin "4"
+			(uuid "787f89b5-0c48-4752-85b3-81560a6aa8fe")
+		)
+		(pin "6"
+			(uuid "5e69a79d-b7d8-4702-98e8-39291d5a00e9")
 		)
 		(pin "2"
-			(uuid "15856ce5-6d63-4b81-9c0d-ff409d7b4061")
+			(uuid "d81d4755-0882-4dba-84f1-54f95dd86caa")
+		)
+		(pin "1"
+			(uuid "784b2513-3ba0-4aef-a0cc-0e43014bcc7e")
 		)
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q307")
+					(reference "Q418")
 					(unit 1)
 				)
 			)
@@ -9395,7 +9997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f599350-2f70-487d-b55d-97e16da4ba3b")
-		(property "Reference" "R302"
+		(property "Reference" "R417"
 			(at 58.42 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9457,7 +10059,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R302")
+					(reference "R417")
 					(unit 1)
 				)
 			)
@@ -9474,7 +10076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3328882-0f8c-4137-bee1-7f27a27b40c8")
-		(property "Reference" "U302"
+		(property "Reference" "U402"
 			(at 240.03 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9616,7 +10218,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "U302")
+					(reference "U402")
 					(unit 1)
 				)
 			)
@@ -9634,7 +10236,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aab8f727-fa7a-4734-b7a5-e10ccef1c6e9")
-		(property "Reference" "R319"
+		(property "Reference" "R402"
 			(at 181.61 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9698,7 +10300,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R319")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -9716,7 +10318,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "acdee968-879c-485d-b5d0-871baea15985")
-		(property "Reference" "R316"
+		(property "Reference" "R406"
 			(at 162.56 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9780,7 +10382,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R316")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -9797,7 +10399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad7250ab-1188-488d-a08a-dec0ef6726a8")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0406"
 			(at 176.53 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9857,7 +10459,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0309")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -9874,7 +10476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aec322ec-b56b-4beb-ad99-56eef9c374f3")
-		(property "Reference" "C302"
+		(property "Reference" "C401"
 			(at 242.57 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9938,14 +10540,13 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "C302")
+					(reference "C401")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "RV_2C_1")
 		(lib_id "MysymbolLibrary:RV_2C")
 		(at 39.37 88.9 0)
 		(unit 1)
@@ -9955,8 +10556,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b3bf936e-6b1d-463a-b32a-9d16ec39c972")
-		(property "Reference" "RV301"
+		(uuid "b3ade334-0019-4d7d-8b90-878cf14c3e27")
+		(property "Reference" "RV401"
 			(at 38.1 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9967,7 +10568,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R"
 			(at 38.1 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9978,7 +10579,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyLibrary:SL4515G"
+		(property "Footprint" "MyLibrary:RV_2C"
 			(at 39.37 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10012,27 +10613,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "8d094ec9-e2fe-417e-97cb-4a6dcc1543f9")
-		)
-		(pin "5"
-			(uuid "b1ef17ab-540a-4dba-9c23-2249d88a1525")
-		)
-		(pin "6"
-			(uuid "6c49bc51-f30b-40ed-b7b7-8bfd364a8e6f")
+			(uuid "843c8808-92e6-4376-8e90-ed8978adef3c")
 		)
 		(pin "3"
-			(uuid "9875df18-2ab9-486c-a2db-ea6b5e39dc22")
+			(uuid "0a18d1c4-4cea-43fb-a96e-4d2aefcf770f")
 		)
-		(pin "1"
-			(uuid "4a504720-bfc9-46f3-b04e-e6fc34f3fbda")
+		(pin "5"
+			(uuid "ccf44b55-900a-4212-9a23-bb4873d3ab33")
 		)
 		(pin "4"
-			(uuid "0d8aabe0-5059-45ee-86de-0fa60da84572")
+			(uuid "2ac4e01c-6dec-47a4-9f05-b631449468e4")
+		)
+		(pin "6"
+			(uuid "de295008-b398-41aa-aa1d-e3add73e0dbe")
+		)
+		(pin "1"
+			(uuid "75d38831-a4fb-4933-8474-58907056956f")
 		)
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "RV301")
+					(reference "RV401")
 					(unit 1)
 				)
 			)
@@ -10050,7 +10651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5833d62-3b73-444c-97f0-9178fad0b83c")
-		(property "Reference" "R320"
+		(property "Reference" "R410"
 			(at 181.61 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10114,7 +10715,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R320")
+					(reference "R410")
 					(unit 1)
 				)
 			)
@@ -10131,7 +10732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b87acd15-def8-4fa7-99fc-4a8192840ad1")
-		(property "Reference" "R308"
+		(property "Reference" "R409"
 			(at 111.76 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10195,7 +10796,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R308")
+					(reference "R409")
 					(unit 1)
 				)
 			)
@@ -10212,7 +10813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8eba7a4-54d9-4586-9b75-47543300bf1f")
-		(property "Reference" "U302"
+		(property "Reference" "U402"
 			(at 213.36 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10354,92 +10955,8 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "U302")
+					(reference "U402")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_ECB")
-		(at 185.42 116.84 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bbfab531-626f-4a19-967e-82c71800ca82")
-		(property "Reference" "Q323"
-			(at 181.356 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PNP"
-			(at 181.356 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 180.34 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PNP transistor, emitter/collector/base"
-			(at 185.42 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "98dd4f15-377d-45d6-a29f-de09ed9125e7")
-		)
-		(pin "3"
-			(uuid "706d9b76-6b39-4aeb-856a-57c8d5b72936")
-		)
-		(pin "1"
-			(uuid "ccd9539c-edd2-402e-8aba-06656e5252cf")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q323")
-					(unit 1)
 				)
 			)
 		)
@@ -10455,7 +10972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd9726a7-62ab-412f-aa5c-8370dbb9ae57")
-		(property "Reference" "R310"
+		(property "Reference" "R427"
 			(at 111.76 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10519,7 +11036,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R310")
+					(reference "R427")
 					(unit 1)
 				)
 			)
@@ -10537,7 +11054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3a4c1cc-c7ac-463a-99ee-2a4841c6516f")
-		(property "Reference" "HS301"
+		(property "Reference" "HS401"
 			(at 255.27 61.5949 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10595,7 +11112,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "HS301")
+					(reference "HS401")
 					(unit 1)
 				)
 			)
@@ -10612,7 +11129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4ce6967-9e87-4913-ac89-83bae30310d0")
-		(property "Reference" "C301"
+		(property "Reference" "C402"
 			(at 267.97 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10676,176 +11193,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "C301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_ECB")
-		(at 173.99 110.49 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c5cf2076-1c39-4290-9714-64ea26f87ba3")
-		(property "Reference" "Q319"
-			(at 169.926 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 169.926 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 168.91 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/collector/base"
-			(at 173.99 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a997f288-3307-4a4d-a78e-29a5475eecf0")
-		)
-		(pin "3"
-			(uuid "f86565f6-b386-42f4-b6f9-77aae3a0902b")
-		)
-		(pin "2"
-			(uuid "5e2c3572-3ada-404e-bf33-5291ae8349df")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q319")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_ECB")
-		(at 107.95 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c702cd4b-7f2e-49f9-b7cc-ad4b8c76d2bc")
-		(property "Reference" "Q304"
-			(at 112.014 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 112.014 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 113.03 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/collector/base"
-			(at 107.95 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1998265a-baa9-4dee-a247-38d172562b28")
-		)
-		(pin "3"
-			(uuid "d0d19794-d350-4ce9-a343-70330dc0693c")
-		)
-		(pin "2"
-			(uuid "f357df00-3c7e-427c-8895-847cb4290ba2")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q304")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -10862,7 +11210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c745d33e-7c0b-4e5b-acc2-37adac8c3b1f")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0417"
 			(at 44.45 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10922,7 +11270,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0302")
+					(reference "#PWR0417")
 					(unit 1)
 				)
 			)
@@ -10939,7 +11287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7f57222-9159-4082-af73-04d4b17168ff")
-		(property "Reference" "#PWR0318"
+		(property "Reference" "#PWR0404"
 			(at 274.32 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10999,91 +11347,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0318")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_ECB")
-		(at 173.99 135.89 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c9941b41-e02e-41af-b3cb-bee74b85a773")
-		(property "Reference" "Q320"
-			(at 169.926 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PNP"
-			(at 169.926 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 168.91 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PNP transistor, emitter/collector/base"
-			(at 173.99 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "69897ce1-7fcd-4358-94e5-fbf322382211")
-		)
-		(pin "3"
-			(uuid "c130b3a2-cced-45ad-b30c-caefa1cb350e")
-		)
-		(pin "1"
-			(uuid "3164f20f-4a13-404f-858d-961e9be669d7")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q320")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -11100,7 +11364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb45ed06-4116-4e29-b715-eddac64b2fa0")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR0419"
 			(at 74.93 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11160,7 +11424,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0304")
+					(reference "#PWR0419")
 					(unit 1)
 				)
 			)
@@ -11177,7 +11441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdbd641e-62a4-4987-a04a-8ce29743d0b2")
-		(property "Reference" "U302"
+		(property "Reference" "U402"
 			(at 274.32 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11319,93 +11583,8 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "U302")
+					(reference "U402")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_ECB")
-		(at 185.42 129.54 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d06b4161-8dce-44ee-a338-cbb0bd7ce550")
-		(property "Reference" "Q324"
-			(at 181.356 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 181.356 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 180.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/collector/base"
-			(at 185.42 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd8dc7da-b513-42b5-8993-a83d5e63faea")
-		)
-		(pin "3"
-			(uuid "e1979d78-8ce7-4e41-b261-23aa7c366990")
-		)
-		(pin "2"
-			(uuid "e470d411-eeeb-41ab-b840-421fafd5fd0e")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q324")
-					(unit 1)
 				)
 			)
 		)
@@ -11422,7 +11601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1aa3cdf-b48a-42e7-8112-12b9592368ad")
-		(property "Reference" "R321"
+		(property "Reference" "R420"
 			(at 181.61 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11486,7 +11665,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R321")
+					(reference "R420")
 					(unit 1)
 				)
 			)
@@ -11504,7 +11683,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d703c960-b41f-4dcf-92b7-58b116693991")
-		(property "Reference" "U301"
+		(property "Reference" "U401"
 			(at 85.09 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11646,7 +11825,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "U301")
+					(reference "U401")
 					(unit 2)
 				)
 			)
@@ -11663,7 +11842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9e2e29a-d683-40eb-9d90-b3b459768ee4")
-		(property "Reference" "R312"
+		(property "Reference" "R405"
 			(at 130.81 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11727,7 +11906,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R312")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -11745,7 +11924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db4f641b-d00e-4526-9d18-ef7c02de6108")
-		(property "Reference" "U301"
+		(property "Reference" "U401"
 			(at 85.09 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11887,7 +12066,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "U301")
+					(reference "U401")
 					(unit 3)
 				)
 			)
@@ -11905,7 +12084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e69f4c3a-ee5a-4ddc-b368-ca3431bfc4d4")
-		(property "Reference" "HS303"
+		(property "Reference" "HS402"
 			(at 273.05 61.5949 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11963,7 +12142,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "HS303")
+					(reference "HS402")
 					(unit 1)
 				)
 			)
@@ -11980,7 +12159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f32698de-ebd1-4122-8815-91dd779d842c")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR0410"
 			(at 176.53 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12040,7 +12219,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0310")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -12057,7 +12236,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7e6433c-ff0d-4d4c-9038-1953526b8bf0")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR0422"
 			(at 176.53 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -12117,7 +12296,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0312")
+					(reference "#PWR0422")
 					(unit 1)
 				)
 			)
@@ -12134,7 +12313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8f529b0-f42d-4bed-86ad-36c2e9aeede4")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0421"
 			(at 116.84 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -12194,7 +12373,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0308")
+					(reference "#PWR0421")
 					(unit 1)
 				)
 			)
@@ -12211,7 +12390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbe2c1b7-8289-42e0-8af1-2ae04e0a771a")
-		(property "Reference" "Q310"
+		(property "Reference" "Q409"
 			(at 131.064 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12278,7 +12457,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q310")
+					(reference "Q409")
 					(unit 1)
 				)
 			)
@@ -12295,7 +12474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd6213c0-12eb-4df0-9c8c-64c8b36aef18")
-		(property "Reference" "R328"
+		(property "Reference" "R414"
 			(at 248.92 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12359,7 +12538,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "R328")
+					(reference "R414")
 					(unit 1)
 				)
 			)
@@ -12376,7 +12555,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffbb746b-8c5f-40d1-90c1-7b48908624fa")
-		(property "Reference" "#PWR0317"
+		(property "Reference" "#PWR0402"
 			(at 274.32 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -12436,7 +12615,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "#PWR0317")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)

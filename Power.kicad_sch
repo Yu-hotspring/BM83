@@ -6767,7 +6767,7 @@
 		(dnp no)
 		(uuid "1079a001-a20f-4d34-be87-f68423103fd1")
 		(property "Reference" "C408"
-			(at 127.508 70.104 0)
+			(at 124.46 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6778,7 +6778,7 @@
 			)
 		)
 		(property "Value" "1000u"
-			(at 127.508 72.644 0)
+			(at 124.46 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8680,7 +8680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e241845-7be0-4c45-97f0-d2c82b1e8fbc")
-		(property "Reference" "C407"
+		(property "Reference" "C406"
 			(at 115.824 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8744,7 +8744,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/91566e44-dea6-486b-a621-3d20a30261fd"
-					(reference "C407")
+					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -8761,8 +8761,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ea72f72-a9a3-4df5-8e90-d990ed592275")
-		(property "Reference" "C406"
-			(at 121.158 70.104 0)
+		(property "Reference" "C407"
+			(at 118.11 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8773,7 +8773,7 @@
 			)
 		)
 		(property "Value" "1000u"
-			(at 121.158 72.644 0)
+			(at 118.11 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8825,7 +8825,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/91566e44-dea6-486b-a621-3d20a30261fd"
-					(reference "C406")
+					(reference "C407")
 					(unit 1)
 				)
 			)
@@ -8997,7 +8997,7 @@
 		(dnp no)
 		(uuid "7d3f166e-6760-493d-9960-2e2f43940edc")
 		(property "Reference" "C410"
-			(at 140.208 70.104 0)
+			(at 137.16 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9008,7 +9008,7 @@
 			)
 		)
 		(property "Value" "1000u"
-			(at 140.208 72.644 0)
+			(at 137.16 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9158,7 +9158,7 @@
 		(dnp no)
 		(uuid "86e3b7d2-d78e-4ef6-88f6-2ed2fc2ffb31")
 		(property "Reference" "C409"
-			(at 133.858 70.104 0)
+			(at 130.81 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9169,7 +9169,7 @@
 			)
 		)
 		(property "Value" "1000u"
-			(at 133.858 72.644 0)
+			(at 130.81 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
