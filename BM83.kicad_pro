@@ -301,7 +301,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 1,
       "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -416,13 +416,29 @@
         "uuid": "00b28691-5113-4bf2-bf96-cb8ff43f915f"
       }
     ],
-    "used_designators": "#PWR14,#PWR16-18,#PWR20,#PWR23-25,#PWR31,#PWR34-51,R5,R7-10,R15-34,R37-53,PS1-2,Q15-18,C14-17,C23-46,RV1-14,U5,U7-12,JP1-2,L1-2,IC1",
+    "used_designators": "D101-107,D401-404,#PWR33,#PWR35,#PWR65-72,#PWR101-125,#PWR201-212,#PWR301-322,#PWR401-416,#PWR501-533,U9,U101-102,U201-206,U301-303,U401,U501-504,C101-103,C201-215,C301-302,C401-415,C501-518,FB101-103,RV201-203,RV301-302,RV501-503,F101,J101-105,J401,IC401,JP101-102,LED501-502,K401,L401-402,NT101-102,PS401-402,Q301-324,Q401-402,R101-111,R201-216,R301-328,R401-405,R501-504,SW101,SW401,SW501-502,H101-104,HS301-304",
     "variants": []
   },
   "sheets": [
     [
       "00b28691-5113-4bf2-bf96-cb8ff43f915f",
       "ルート"
+    ],
+    [
+      "c1e625fc-2efb-41b9-b8ae-8253e137b840",
+      "Equalizer"
+    ],
+    [
+      "ecc3a0ee-69da-4eec-b496-26044ba3a32d",
+      "Amplifier"
+    ],
+    [
+      "91566e44-dea6-486b-a621-3d20a30261fd",
+      "Power"
+    ],
+    [
+      "514f5709-5940-41c3-bb07-e91835a532d4",
+      "DAC"
     ]
   ],
   "text_variables": {},
