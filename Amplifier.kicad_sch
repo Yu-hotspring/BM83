@@ -5722,7 +5722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18e94a9c-ae4f-4d39-8dd5-e5300eb14aa7")
-		(property "Reference" "Q416"
+		(property "Reference" "Q414"
 			(at 162.306 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5789,7 +5789,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q416")
+					(reference "Q414")
 					(unit 1)
 				)
 			)
@@ -6362,6 +6362,101 @@
 		)
 	)
 	(symbol
+		(lib_name "TPC6901A_1")
+		(lib_id "MysymbolLibrary:TPC6901A")
+		(at 124.46 82.55 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29ee973a-ea01-4f12-953d-4752d8a78caf")
+		(property "Reference" "Q407"
+			(at 109.22 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPC6901A"
+			(at 109.22 75.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e173bf34-f384-402d-b6a7-151df5f6b6ad")
+		)
+		(pin "5"
+			(uuid "73776a6e-61d7-44bd-8404-05fb7d0d4517")
+		)
+		(pin "4"
+			(uuid "e89afc0b-ec82-4d9b-b7e7-809baba9c718")
+		)
+		(pin "6"
+			(uuid "a80b6af5-bd75-413a-a4b0-8e7608bf1129")
+		)
+		(pin "2"
+			(uuid "ef3da396-bc0c-42e0-ac60-8c9a41673033")
+		)
+		(pin "1"
+			(uuid "f48e15b5-1687-464d-9735-5384c5e123fd")
+		)
+		(instances
+			(project "BM83"
+				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
+					(reference "Q407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 223.52 106.68 0)
 		(unit 1)
@@ -6928,7 +7023,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42f83c0b-c03c-42ce-a8e9-bb2652c0f687")
-		(property "Reference" "Q411"
+		(property "Reference" "Q409"
 			(at 109.474 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,7 +7099,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q411")
+					(reference "Q409")
 					(unit 1)
 				)
 			)
@@ -7166,90 +7261,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_ECB")
-		(at 173.99 73.66 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4cea9071-3412-493f-858b-8d547729b336")
-		(property "Reference" "Q408"
-			(at 169.926 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PNP"
-			(at 169.926 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 168.91 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PNP transistor, emitter/collector/base"
-			(at 173.99 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0f4ff1df-e7c2-4570-a124-16a5a9778ce4")
-		)
-		(pin "3"
-			(uuid "c550c6ba-18db-415b-843d-e58053290b46")
-		)
-		(pin "1"
-			(uuid "2255bd53-a947-4cca-a557-0821e41e314c")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q408")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "TPC6901A_1")
 		(lib_id "MysymbolLibrary:TPC6901A")
 		(at 124.46 144.78 0)
@@ -7262,7 +7273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ea14635-2c2c-42c0-bbc3-02cac7cd1a89")
-		(property "Reference" "Q417"
+		(property "Reference" "Q415"
 			(at 109.22 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7338,7 +7349,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q417")
+					(reference "Q415")
 					(unit 1)
 				)
 			)
@@ -7595,91 +7606,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_ECB")
-		(at 185.42 67.31 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5cc79d94-85c0-4c05-b1c6-2190031de351")
-		(property "Reference" "Q406"
-			(at 181.356 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 181.356 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 180.34 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/collector/base"
-			(at 185.42 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74e941a1-3a9b-42b9-8519-244acbfe5404")
-		)
-		(pin "3"
-			(uuid "f3c44df5-10fb-43b8-a9d6-5bbcf89dcba8")
-		)
-		(pin "2"
-			(uuid "f9fbdf5a-c66b-49c6-8e31-d4c21046cf92")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:Q_PNP_ECB")
 		(at 127 43.18 0)
 		(mirror x)
@@ -7868,7 +7794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "605292c3-0a7c-4034-8828-44e15e80d632")
-		(property "Reference" "Q415"
+		(property "Reference" "Q413"
 			(at 131.064 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7935,7 +7861,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q415")
+					(reference "Q413")
 					(unit 1)
 				)
 			)
@@ -8030,7 +7956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6133e95b-59a3-48f1-9db7-b0324aafaa2a")
-		(property "Reference" "Q413"
+		(property "Reference" "Q411"
 			(at 131.064 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8097,7 +8023,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q413")
+					(reference "Q411")
 					(unit 1)
 				)
 			)
@@ -8341,90 +8267,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_ECB")
-		(at 107.95 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6564094d-80be-493d-a3ab-77df72fd5733")
-		(property "Reference" "Q405"
-			(at 112.014 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 112.014 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 113.03 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/collector/base"
-			(at 107.95 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c4fdb3a-5c8a-4089-9229-3a3a0dfa68fb")
-		)
-		(pin "3"
-			(uuid "9b876bbd-453f-4683-ab9d-476bdf584727")
-		)
-		(pin "2"
-			(uuid "45877ae5-644b-4037-8f26-15634884b99c")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 50.8 93.98 0)
 		(mirror y)
@@ -8594,7 +8436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6eaf7144-be7c-459a-810b-376aba4edbe4")
-		(property "Reference" "Q414"
+		(property "Reference" "Q412"
 			(at 162.306 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8661,92 +8503,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q414")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_ECB")
-		(at 119.38 73.66 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7430e013-b2be-41ac-9cd7-04f83b37e928")
-		(property "Reference" "Q407"
-			(at 123.444 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PNP"
-			(at 123.444 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 124.46 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PNP transistor, emitter/collector/base"
-			(at 119.38 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1eae471a-475b-42c8-8c6d-8391a3a812df")
-		)
-		(pin "3"
-			(uuid "0e3bfb2c-d187-4fdc-8dd9-4e82c8f15f9b")
-		)
-		(pin "1"
-			(uuid "9dc5d213-3fff-442f-983f-bdbab8ceb7d9")
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q407")
+					(reference "Q412")
 					(unit 1)
 				)
 			)
@@ -9243,7 +9000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d10412c-1dd4-4712-90e4-339aaa76affd")
-		(property "Reference" "Q410"
+		(property "Reference" "Q406"
 			(at 162.306 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9310,7 +9067,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q410")
+					(reference "Q406")
 					(unit 1)
 				)
 			)
@@ -9422,7 +9179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92a31994-4da7-4493-bf74-131254e38988")
-		(property "Reference" "Q412"
+		(property "Reference" "Q410"
 			(at 183.896 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9498,7 +9255,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q412")
+					(reference "Q410")
 					(unit 1)
 				)
 			)
@@ -9904,7 +9661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c767713-9885-4d93-8f23-d65034aae9a7")
-		(property "Reference" "Q418"
+		(property "Reference" "Q416"
 			(at 184.15 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9980,7 +9737,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q418")
+					(reference "Q416")
 					(unit 1)
 				)
 			)
@@ -10613,22 +10370,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "843c8808-92e6-4376-8e90-ed8978adef3c")
+			(uuid "843c8808-92e6-4376-8e90-ed8978adef3d")
 		)
 		(pin "3"
-			(uuid "0a18d1c4-4cea-43fb-a96e-4d2aefcf770f")
+			(uuid "0a18d1c4-4cea-43fb-a96e-4d2aefcf7710")
 		)
 		(pin "5"
-			(uuid "ccf44b55-900a-4212-9a23-bb4873d3ab33")
+			(uuid "ccf44b55-900a-4212-9a23-bb4873d3ab34")
 		)
 		(pin "4"
-			(uuid "2ac4e01c-6dec-47a4-9f05-b631449468e4")
+			(uuid "2ac4e01c-6dec-47a4-9f05-b631449468e5")
 		)
 		(pin "6"
-			(uuid "de295008-b398-41aa-aa1d-e3add73e0dbe")
+			(uuid "de295008-b398-41aa-aa1d-e3add73e0dbf")
 		)
 		(pin "1"
-			(uuid "75d38831-a4fb-4933-8474-58907056956f")
+			(uuid "75d38831-a4fb-4933-8474-589070569570")
 		)
 		(instances
 			(project "BM83"
@@ -11672,6 +11429,100 @@
 		)
 	)
 	(symbol
+		(lib_name "TPC6901A_1")
+		(lib_id "MysymbolLibrary:TPC6901A")
+		(at 168.91 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d53754ef-fcbd-49f2-8f23-95495b1f073c")
+		(property "Reference" "Q408"
+			(at 184.15 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPC6901A"
+			(at 184.15 75.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "802b3847-ad18-4c11-865e-d746cd1e39b6")
+		)
+		(pin "5"
+			(uuid "8b048760-9ff2-4c8a-b252-92f945a6b1d4")
+		)
+		(pin "4"
+			(uuid "08dbd5f1-090c-47cf-88a1-8e9fbd9ef235")
+		)
+		(pin "6"
+			(uuid "e835a784-5449-418b-b8a1-a6b78fa3aafc")
+		)
+		(pin "2"
+			(uuid "b595da04-85ce-47bd-9ad5-9ebd56ff8b2a")
+		)
+		(pin "1"
+			(uuid "15546fc8-3851-4226-b84e-dd223a81e6f4")
+		)
+		(instances
+			(project "BM83"
+				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
+					(reference "Q408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Opamp_Quad")
 		(at 85.09 80.01 0)
 		(mirror x)
@@ -12390,7 +12241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbe2c1b7-8289-42e0-8af1-2ae04e0a771a")
-		(property "Reference" "Q409"
+		(property "Reference" "Q405"
 			(at 131.064 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12457,7 +12308,7 @@
 		(instances
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "Q409")
+					(reference "Q405")
 					(unit 1)
 				)
 			)
