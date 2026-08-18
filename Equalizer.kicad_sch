@@ -3348,7 +3348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 237.49 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -3492,7 +3492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 145.288 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -3573,7 +3573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.832 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -3736,7 +3736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 145.288 127 90)
 			(hide yes)
 			(show_name no)
@@ -4059,7 +4059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 60.198 90)
 			(hide yes)
 			(show_name no)
@@ -4219,7 +4219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 50.038 90)
 			(hide yes)
 			(show_name no)
@@ -4377,7 +4377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 173.99 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4776,7 +4776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyLibrary:SL4515G"
+		(property "Footprint" "MyLibrary:RV_2C"
 			(at 119.38 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4946,7 +4946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 146.05 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5107,7 +5107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.892 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -5189,7 +5189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 117.348 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -5348,7 +5348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.228 127 90)
 			(hide yes)
 			(show_name no)
@@ -5429,7 +5429,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 118.11 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5590,7 +5590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 273.05 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -5751,7 +5751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.892 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -5909,7 +5909,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 173.99 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6305,7 +6305,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 146.05 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6467,7 +6467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 117.348 127 90)
 			(hide yes)
 			(show_name no)
@@ -6632,7 +6632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyLibrary:SL4515G"
+		(property "Footprint" "MyLibrary:RV_2C"
 			(at 147.32 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6725,7 +6725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 272.7452 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6883,7 +6883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.952 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -6962,7 +6962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -7044,7 +7044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.228 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -7207,7 +7207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.832 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -7364,7 +7364,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 189.23 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7523,7 +7523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 93.98 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7666,7 +7666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 252.73 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -7827,7 +7827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 252.4252 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8062,7 +8062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.952 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -8222,7 +8222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8363,7 +8363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 105.918 90)
 			(hide yes)
 			(show_name no)
@@ -8446,7 +8446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyLibrary:SL4515G"
+		(property "Footprint" "MyLibrary:RV_2C"
 			(at 147.32 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8541,7 +8541,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyLibrary:SL4515G"
+		(property "Footprint" "MyLibrary:RV_2C"
 			(at 175.26 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8636,7 +8636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyLibrary:SL4515G"
+		(property "Footprint" "MyLibrary:RV_2C"
 			(at 175.26 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8729,7 +8729,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 118.11 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8889,7 +8889,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 189.23 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9134,7 +9134,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyLibrary:SL4515G"
+		(property "Footprint" "MyLibrary:RV_2C"
 			(at 119.38 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9309,7 +9309,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 232.1052 29.21 0)
 			(hide yes)
 			(show_name no)
