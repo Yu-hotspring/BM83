@@ -6655,6 +6655,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 123.19) (xy 66.04 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903361f3-091f-49c5-b3bc-ec51913371b0")
+	)
+	(wire
+		(pts
 			(xy 189.23 45.72) (xy 190.5 45.72)
 		)
 		(stroke
@@ -6952,6 +6962,16 @@
 			(type default)
 		)
 		(uuid "d267473b-db5f-4948-9935-393bc9fcddbc")
+	)
+	(wire
+		(pts
+			(xy 59.69 129.54) (xy 68.58 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ce1be7-fea9-442e-ae46-d96258b8301b")
 	)
 	(wire
 		(pts
@@ -7433,6 +7453,16 @@
 		)
 		(uuid "8c103901-e207-4518-880c-06f47dddc9ce")
 	)
+	(label "VDDA"
+		(at 66.04 123.19 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ee68d86-7727-49a3-b0f1-8a66d7aaad7a")
+	)
 	(label "foward"
 		(at 85.09 41.91 0)
 		(effects
@@ -7673,6 +7703,16 @@
 		)
 		(uuid "d8aced66-2585-413e-a823-8ba526b90c6c")
 	)
+	(label "VDD2"
+		(at 68.58 129.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d90cea42-892d-40c5-b597-93c1e47e2ee7")
+	)
 	(label "AIL"
 		(at 38.1 80.01 180)
 		(effects
@@ -7762,6 +7802,16 @@
 			(justify right bottom)
 		)
 		(uuid "ef193448-c49f-48bb-9123-c5c584eca778")
+	)
+	(label "VDD1"
+		(at 66.04 129.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef3d16d5-d41d-4c00-b332-6ce7bd7b97d4")
 	)
 	(label "volume_down"
 		(at 85.09 49.53 0)
@@ -8965,7 +9015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 181.61 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9046,7 +9096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.45 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9738,7 +9788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.69 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9896,7 +9946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.69 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10217,7 +10267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.69 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10530,7 +10580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 181.61 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10573,6 +10623,83 @@
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/514f5709-5940-41c3-bb07-e91835a532d4"
 					(reference "C201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 59.69 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7dea9364-38c7-4553-9229-8a8dbc05c2a2")
+		(property "Reference" "#PWR0232"
+			(at 59.69 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 59.69 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 59.69 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b60e2ff-8040-465b-9c94-22b37659663d")
+		)
+		(instances
+			(project "BM83"
+				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/514f5709-5940-41c3-bb07-e91835a532d4"
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -12040,7 +12167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.69 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12406,6 +12533,83 @@
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/514f5709-5940-41c3-bb07-e91835a532d4"
 					(reference "SW202")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 59.69 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4f753b9-74d3-415d-b94d-3bd65de11cf0")
+		(property "Reference" "#PWR0231"
+			(at 59.69 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 59.69 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 59.69 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb773d51-7438-46a7-a8f5-f0232dc8ad7b")
+		)
+		(instances
+			(project "BM83"
+				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/514f5709-5940-41c3-bb07-e91835a532d4"
+					(reference "#PWR0231")
+					(unit 1)
 				)
 			)
 		)
@@ -13012,7 +13216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.69 67.31 0)
 			(hide yes)
 			(show_name no)

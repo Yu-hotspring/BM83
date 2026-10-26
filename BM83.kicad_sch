@@ -8303,6 +8303,17 @@
 		)
 		(uuid "c85cf23a-9e79-487e-9732-bdbf16d15417")
 	)
+	(text "つまみ"
+		(exclude_from_sim no)
+		(at 203.708 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://akizukidenshi.com/catalog/g/g112202/")
+		)
+		(uuid "d45e03ec-f9ff-4160-884a-3c0806035a4d")
+	)
 	(text "インバーテッドダーリントン"
 		(exclude_from_sim no)
 		(at 278.384 184.404 0)

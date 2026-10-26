@@ -522,11 +522,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -649,7 +652,7 @@
         "uuid": "00b28691-5113-4bf2-bf96-cb8ff43f915f"
       }
     ],
-    "used_designators": "H101-104,SW101-102,SW201-205,SW209-210,C101-120,C201-220,C301-315,C401-402,S201,#PWR101-141,#PWR201-231,#PWR301-312,#PWR401-422,D101-112,F101,RV301-303,RV401,FB101-102,HS401-404,IC101,J101-107,JP101-102,LED201-202,K101,L101-102,PS101-102,Q101-102,Q401-416,R101-115,R201-212,R301-316,R401-428,U101-102,U201-204,U301-303,U401-402",
+    "used_designators": "#PWR231-232",
     "variants": []
   },
   "sheets": [

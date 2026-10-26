@@ -749,121 +749,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:Heatsink"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "HS"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Heatsink"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.3048 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.3048 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Heatsink"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "thermal heat temperature"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Heatsink_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Heatsink_0_1"
-				(polyline
-					(pts
-						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
-						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
-						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
-						(xy -0.9652 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MysymbolLibrary:RV_2C"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2608,6 +2493,18 @@
 		)
 		(uuid "621719e1-3565-4b79-824d-b29e83e0e2bb")
 	)
+	(text "やっぱヒートシンクこれで\n長い一体のもの，8℃/W\nダメだったら空冷で"
+		(exclude_from_sim no)
+		(at 280.162 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+			(href "https://eleshop.jp/shop/g/g1850031/")
+		)
+		(uuid "73a3c17d-ed15-4bbd-88a1-4dde58706cd8")
+	)
 	(text "出力段"
 		(exclude_from_sim no)
 		(at 118.364 124.714 0)
@@ -2637,6 +2534,17 @@
 			)
 		)
 		(uuid "bdde78fe-a04e-44cd-836c-321194e8faa7")
+	)
+	(text "100~200mAくらい"
+		(exclude_from_sim no)
+		(at 110.49 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0715db8-eca6-49de-af0e-1b6c378a9f28")
 	)
 	(text "出力段"
 		(exclude_from_sim no)
@@ -5744,7 +5652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "2SC3422"
 			(at 162.306 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6647,7 +6555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PNP"
+		(property "Value" "2SA1359"
 			(at 162.306 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7639,7 +7547,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PNP"
+		(property "Value" "2SA1359"
 			(at 131.064 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7816,7 +7724,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "2SC3422"
 			(at 131.064 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7978,7 +7886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PNP"
+		(property "Value" "2SA1359"
 			(at 131.064 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8458,7 +8366,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PNP"
+		(property "Value" "2SA1359"
 			(at 162.306 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9022,7 +8930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "2SC3422"
 			(at 162.306 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9273,82 +9181,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 269.24 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94c62b68-34b8-4d76-aef9-b82f59e43660")
-		(property "Reference" "HS404"
-			(at 273.05 66.6749 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 273.05 69.2149 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyLibrary:17PB024"
-			(at 269.5448 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.5448 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 269.24 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "HS404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 213.36 72.39 270)
 		(mirror x)
@@ -9579,82 +9411,6 @@
 			(project "BM83"
 				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
 					(reference "R415")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 251.46 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b5c39e4-0dfe-404a-8481-2d2d005903ba")
-		(property "Reference" "HS403"
-			(at 255.27 66.6749 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 255.27 69.2149 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyLibrary:17PB024"
-			(at 251.7648 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.7648 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 251.46 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "HS403")
 					(unit 1)
 				)
 			)
@@ -10811,82 +10567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 251.46 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3a4c1cc-c7ac-463a-99ee-2a4841c6516f")
-		(property "Reference" "HS401"
-			(at 255.27 61.5949 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 255.27 64.1349 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyLibrary:17PB024"
-			(at 251.7648 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.7648 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 251.46 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "HS401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 270.51 25.4 0)
 		(unit 1)
@@ -11935,82 +11615,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 269.24 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e69f4c3a-ee5a-4ddc-b368-ca3431bfc4d4")
-		(property "Reference" "HS402"
-			(at 273.05 61.5949 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 273.05 64.1349 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyLibrary:17PB024"
-			(at 269.5448 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.5448 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 269.24 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "BM83"
-				(path "/00b28691-5113-4bf2-bf96-cb8ff43f915f/ecc3a0ee-69da-4eec-b496-26044ba3a32d"
-					(reference "HS402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VEE")
 		(at 176.53 85.09 180)
 		(unit 1)
@@ -12263,7 +11867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "2SC3422"
 			(at 131.064 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
