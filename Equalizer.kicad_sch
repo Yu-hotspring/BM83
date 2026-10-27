@@ -2160,6 +2160,17 @@
 		)
 		(uuid "5436f61a-52f1-43fd-8231-8d3f65cb5ce5")
 	)
+	(text "RK0972B103L15F"
+		(exclude_from_sim no)
+		(at 147.828 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://akizukidenshi.com/catalog/g/g112576/")
+		)
+		(uuid "5785813e-3fbb-4fed-bb0b-314a47df45cf")
+	)
 	(text "6kHz"
 		(exclude_from_sim no)
 		(at 173.99 81.28 0)
@@ -2227,6 +2238,12 @@
 		(uuid "18538977-d8af-4e6c-98fa-f9074b86dd8b")
 	)
 	(junction
+		(at 255.27 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29ee32e5-c830-41df-86d7-def16deb68f8")
+	)
+	(junction
 		(at 120.65 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2237,12 +2254,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3462109e-08ff-47fd-a316-0080ea2e0b76")
-	)
-	(junction
-		(at 255.27 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c871d81-04f1-407d-9ea4-22c803aae129")
 	)
 	(junction
 		(at 196.85 54.61)
@@ -2275,12 +2286,6 @@
 		(uuid "40cfdb35-74b3-425f-bed6-548a9db6975f")
 	)
 	(junction
-		(at 255.27 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "454946d5-97e6-4ea2-8708-fbeadc2dc0dc")
-	)
-	(junction
 		(at 275.59 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2303,6 +2308,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a604c87-0fbe-49ed-9da0-b38042ca89bc")
+	)
+	(junction
+		(at 255.27 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "618a4e79-b17a-4d69-b5fb-2157a8070c20")
 	)
 	(junction
 		(at 115.57 67.31)
@@ -5559,7 +5570,8 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 273.05 25.4 180)
+		(at 273.05 25.4 0)
+		(mirror y)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5569,7 +5581,7 @@
 		(dnp no)
 		(uuid "5d1ead2d-6ab4-4fbd-967b-d6e06c19fc3d")
 		(property "Reference" "U303"
-			(at 276.86 24.1299 0)
+			(at 276.86 26.6701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5580,7 +5592,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 276.86 26.6699 0)
+			(at 276.86 24.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7635,7 +7647,8 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 252.73 25.4 180)
+		(at 252.73 25.4 0)
+		(mirror y)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7645,7 +7658,7 @@
 		(dnp no)
 		(uuid "b647908d-caad-4e21-9a6d-3f62d1a8152e")
 		(property "Reference" "U302"
-			(at 256.54 24.1299 0)
+			(at 256.54 26.6701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7656,7 +7669,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 256.54 26.6699 0)
+			(at 256.54 24.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -2567,6 +2567,17 @@
 		)
 		(uuid "e8e41209-cec3-45b1-a458-01262a636ea1")
 	)
+	(text "最大電圧，最大ボリュームでクリップしないように設定\nラインIN(MAX)：400mVp-p\nこれに合わせてPCM5102A出力も分圧(約14:1)\nEQで最大+24dB -> 5.5Vp-p\nこれを電圧増幅段で4倍して22Vp-p"
+		(exclude_from_sim no)
+		(at 35.052 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eab57209-f395-434c-891a-0f9074412f70")
+	)
 	(text "Rd"
 		(exclude_from_sim no)
 		(at 74.93 106.68 0)
@@ -2576,6 +2587,17 @@
 			)
 		)
 		(uuid "f7d58a4d-8f89-4d94-ace4-d56d89c64a31")
+	)
+	(text "LME49740NA"
+		(exclude_from_sim no)
+		(at 294.64 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://akizukidenshi.com/catalog/g/g103685/")
+		)
+		(uuid "f80d1326-e207-4d86-a620-8106a5ad7d43")
 	)
 	(junction
 		(at 74.93 77.47)
@@ -5169,7 +5191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "LME49740NA"
 			(at 250.19 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5331,7 +5353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "LME49740NA"
 			(at 275.59 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5491,7 +5513,7 @@
 				)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "LME49740NA"
 			(at 213.36 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5981,7 +6003,7 @@
 				)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "LME49740NA"
 			(at 58.42 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6222,7 +6244,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "30k"
 			(at 213.36 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8127,7 +8149,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "30k"
 			(at 85.09 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8440,7 +8462,7 @@
 		(dnp no)
 		(uuid "77592d25-ea60-43f4-a88a-e009b6522655")
 		(property "Reference" "U401"
-			(at 248.92 41.91 0)
+			(at 248.92 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8449,8 +8471,8 @@
 				)
 			)
 		)
-		(property "Value" "???"
-			(at 248.92 44.45 0)
+		(property "Value" "LME49740NA"
+			(at 248.92 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9202,7 +9224,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "30k"
 			(at 213.36 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9358,7 +9380,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "30k"
 			(at 85.09 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9610,7 +9632,7 @@
 				)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "LME49740NA"
 			(at 240.03 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10347,7 +10369,7 @@
 				)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "LME49740NA"
 			(at 213.36 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10890,7 +10912,7 @@
 		(dnp no)
 		(uuid "cdbd641e-62a4-4987-a04a-8ce29743d0b2")
 		(property "Reference" "U402"
-			(at 274.32 41.91 0)
+			(at 274.32 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10899,8 +10921,8 @@
 				)
 			)
 		)
-		(property "Value" "???"
-			(at 274.32 44.45 0)
+		(property "Value" "LME49740NA"
+			(at 274.32 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11235,7 +11257,7 @@
 				)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "LME49740NA"
 			(at 85.09 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11476,7 +11498,7 @@
 				)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "LME49740NA"
 			(at 85.09 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
