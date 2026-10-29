@@ -8313,6 +8313,16 @@
 		)
 		(uuid "c85cf23a-9e79-487e-9732-bdbf16d15417")
 	)
+	(text "↑接続先確認(AGNDではないか)"
+		(exclude_from_sim no)
+		(at 268.478 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca4ddaac-6d05-447b-8ac6-6ca772007c30")
+	)
 	(text "つまみ"
 		(exclude_from_sim no)
 		(at 203.708 150.114 0)
@@ -8977,6 +8987,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 81.28) (xy 168.91 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106bdbfb-eee7-4797-a6b0-5a237e89058f")
+	)
+	(wire
+		(pts
 			(xy 110.49 40.64) (xy 114.3 40.64)
 		)
 		(stroke
@@ -9077,7 +9097,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 88.9) (xy 168.91 88.9)
+			(xy 165.1 93.98) (xy 168.91 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9117,7 +9137,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 168.91 96.52)
+			(xy 165.1 101.6) (xy 168.91 101.6)
 		)
 		(stroke
 			(width 0)
@@ -10087,7 +10107,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 86.36) (xy 168.91 86.36)
+			(xy 165.1 91.44) (xy 168.91 91.44)
 		)
 		(stroke
 			(width 0)
@@ -10374,6 +10394,16 @@
 			(type default)
 		)
 		(uuid "b693f956-81d4-40ef-b8f1-2a3f5a21f480")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7077f22-9b0d-4bf0-9468-5cd18e3ad355")
 	)
 	(wire
 		(pts
@@ -10717,7 +10747,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 99.06) (xy 168.91 99.06)
+			(xy 165.1 104.14) (xy 168.91 104.14)
 		)
 		(stroke
 			(width 0)
@@ -12433,25 +12463,35 @@
 		)
 		(uuid "09689ce5-cd1a-40ac-98de-15705a42adc2")
 	)
-	(label "DP_BM83"
-		(at 165.1 96.52 180)
+	(label "SWCLK"
+		(at 165.1 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "17e635fc-9176-4852-878c-39ea188cb17b")
+		(uuid "1254cefc-325e-4f03-ba82-98e2a6761092")
 	)
-	(label "DP_STM32"
-		(at 165.1 86.36 180)
+	(label "STM32_D-"
+		(at 165.1 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "258b6f5d-3820-4641-9638-95cc00170597")
+		(uuid "32b5f24e-2ece-463a-82b4-88dd73324a8c")
+	)
+	(label "STM32_D+"
+		(at 165.1 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3546109c-b53f-4475-bd48-4bde97f1036a")
 	)
 	(label "DM"
 		(at 50.8 50.8 0)
@@ -12472,6 +12512,16 @@
 			(justify right bottom)
 		)
 		(uuid "37afe34b-602c-4123-b34c-0855f1da1e37")
+	)
+	(label "BM83_D-"
+		(at 165.1 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fe87c2b-52b0-43f5-aedb-17c61f98b8a7")
 	)
 	(label "USB_D+"
 		(at 119.38 67.31 0)
@@ -12553,7 +12603,7 @@
 		)
 		(uuid "ac02988b-157d-4ff2-b60b-1c79be4c95f0")
 	)
-	(label "DM_BM83"
+	(label "BM83_D-"
 		(at 109.22 72.39 180)
 		(effects
 			(font
@@ -12573,17 +12623,7 @@
 		)
 		(uuid "bd520112-4def-4ba5-b284-a185c8638215")
 	)
-	(label "DM_BM83"
-		(at 165.1 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2fc37a1-30df-493f-9e8b-994a5aad7183")
-	)
-	(label "DP_BM83"
+	(label "BM83_D+"
 		(at 119.38 72.39 0)
 		(effects
 			(font
@@ -12593,33 +12633,43 @@
 		)
 		(uuid "cc54237a-515c-46db-8b48-56bfa1a35e33")
 	)
-	(label "DM_STM32"
-		(at 165.1 88.9 180)
+	(label "SWDIO"
+		(at 165.1 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e602a17b-a260-443c-b156-67de55dd348b")
+		(uuid "e4b9b765-fe31-494b-b90f-c558874eb638")
 	)
-	(label "DP_STM32"
-		(at 119.38 62.23 0)
+	(label "BM83_D+"
+		(at 165.1 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "f50a78d0-dd9e-4bdc-896d-ceb0f2138c0a")
+		(uuid "f2971863-188f-4f40-98e4-693ef7c5cd3e")
 	)
-	(label "DM_STM32"
+	(label "STM32_D-"
 		(at 109.22 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
+		)
+		(uuid "f50a78d0-dd9e-4bdc-896d-ceb0f2138c0a")
+	)
+	(label "STM32_D+"
+		(at 119.38 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "f5ae415b-3db9-4b2e-8d7e-245d0d8e95c6")
 	)
@@ -22975,8 +23025,8 @@
 		)
 	)
 	(sheet
-		(at 168.91 83.82)
-		(size 19.05 17.78)
+		(at 168.91 78.74)
+		(size 19.05 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22991,7 +23041,7 @@
 		)
 		(uuid "514f5709-5940-41c3-bb07-e91835a532d4")
 		(property "Sheetname" "DAC"
-			(at 168.91 83.1084 0)
+			(at 168.91 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23002,7 +23052,7 @@
 			)
 		)
 		(property "Sheetfile" "DAC.kicad_sch"
-			(at 168.91 102.1846 0)
+			(at 168.91 107.2646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23013,7 +23063,7 @@
 			)
 		)
 		(pin "DP_BM83" input
-			(at 168.91 96.52 180)
+			(at 168.91 101.6 180)
 			(uuid "c8b5f49e-09fa-4ffb-90fa-63b087197e10")
 			(effects
 				(font
@@ -23043,7 +23093,7 @@
 			)
 		)
 		(pin "DM_STM" input
-			(at 168.91 88.9 180)
+			(at 168.91 93.98 180)
 			(uuid "bec63a95-dea4-4cd7-8776-56c06fa04675")
 			(effects
 				(font
@@ -23053,7 +23103,7 @@
 			)
 		)
 		(pin "DP_STM" input
-			(at 168.91 86.36 180)
+			(at 168.91 91.44 180)
 			(uuid "1c1f992a-0593-4dd0-846e-3d536dede522")
 			(effects
 				(font
@@ -23063,8 +23113,28 @@
 			)
 		)
 		(pin "DM_BM83" input
-			(at 168.91 99.06 180)
+			(at 168.91 104.14 180)
 			(uuid "6b732b93-557b-4b4c-81b2-f1aa6156b6e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 168.91 81.28 180)
+			(uuid "d7668556-24bb-441c-8418-ec829dec16b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 168.91 83.82 180)
+			(uuid "971cf5d3-0c2f-4f05-89ab-bb10faea6c19")
 			(effects
 				(font
 					(size 1.27 1.27)

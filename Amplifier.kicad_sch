@@ -2606,12 +2606,6 @@
 		(uuid "06da7cf4-5017-481b-bf48-5c1f9a1a46fc")
 	)
 	(junction
-		(at 92.71 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18c5ef05-750d-44d6-9aa4-22addc4d79c2")
-	)
-	(junction
 		(at 163.83 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2636,12 +2630,6 @@
 		(uuid "2c66a10f-7156-4ef8-8ed4-15b158a38eb5")
 	)
 	(junction
-		(at 66.04 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dee5cbe-729c-4998-8cb0-c166d14436f6")
-	)
-	(junction
 		(at 129.54 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2657,7 +2645,7 @@
 		(at 232.41 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "48dac547-25b8-45b8-a7e5-02f970f23166")
+		(uuid "398008a7-e408-4069-8142-24382bc48e95")
 	)
 	(junction
 		(at 182.88 48.26)
@@ -2714,10 +2702,10 @@
 		(uuid "7fb5f6bc-7b7b-4eb5-943e-eef986ec7181")
 	)
 	(junction
-		(at 205.74 80.01)
+		(at 66.04 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81fbd852-e573-458e-8e5d-a1a063be1aa8")
+		(uuid "8058bf31-1926-49e6-aa51-6dd6635ed84b")
 	)
 	(junction
 		(at 248.92 17.78)
@@ -2748,6 +2736,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d3726d6-c2ce-44cb-8bb1-38f03e3b8797")
+	)
+	(junction
+		(at 205.74 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e2427f4-8100-454a-ac5d-f371b1905fdc")
 	)
 	(junction
 		(at 92.71 104.14)
@@ -2898,6 +2892,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e88308ab-9ba7-40ae-942d-4f5f8a81f6a9")
+	)
+	(junction
+		(at 92.71 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1cccf8a-72b9-4404-afef-3d44fcd1ced4")
 	)
 	(wire
 		(pts
@@ -5494,7 +5494,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 213.36 80.01 180)
+		(at 240.03 106.68 180)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5504,7 +5504,7 @@
 		(dnp no)
 		(uuid "14ce191d-f016-4eac-8e24-6925e8cc15fd")
 		(property "Reference" "U402"
-			(at 213.36 88.9 0)
+			(at 240.03 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5514,7 +5514,7 @@
 			)
 		)
 		(property "Value" "LME49740NA"
-			(at 213.36 86.36 0)
+			(at 240.03 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5524,7 +5524,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 213.36 80.01 0)
+			(at 240.03 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5535,7 +5535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 80.01 0)
+			(at 240.03 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5546,7 +5546,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 213.36 80.01 0)
+			(at 240.03 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5557,7 +5557,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 213.36 80.01 0)
+			(at 240.03 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5568,7 +5568,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 213.36 80.01 0)
+			(at 240.03 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5579,7 +5579,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 213.36 80.01 0)
+			(at 240.03 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5590,7 +5590,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 213.36 80.01 0)
+			(at 240.03 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5983,7 +5983,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 58.42 106.68 0)
+		(at 85.09 80.01 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5994,7 +5994,7 @@
 		(dnp no)
 		(uuid "26aa03d0-1d48-49fa-9b6a-ee2db22a2532")
 		(property "Reference" "U401"
-			(at 58.42 115.57 0)
+			(at 85.09 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6004,7 +6004,7 @@
 			)
 		)
 		(property "Value" "LME49740NA"
-			(at 58.42 113.03 0)
+			(at 85.09 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6014,7 +6014,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 58.42 106.68 0)
+			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,7 +6025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 106.68 0)
+			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6036,7 +6036,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 58.42 106.68 0)
+			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6047,7 +6047,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 58.42 106.68 0)
+			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6058,7 +6058,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 58.42 106.68 0)
+			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6069,7 +6069,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 58.42 106.68 0)
+			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6080,7 +6080,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 58.42 106.68 0)
+			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9613,7 +9613,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 240.03 106.68 180)
+		(at 213.36 80.01 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9623,7 +9623,7 @@
 		(dnp no)
 		(uuid "a3328882-0f8c-4137-bee1-7f27a27b40c8")
 		(property "Reference" "U402"
-			(at 240.03 115.57 0)
+			(at 213.36 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9633,7 +9633,7 @@
 			)
 		)
 		(property "Value" "LME49740NA"
-			(at 240.03 113.03 0)
+			(at 213.36 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9643,7 +9643,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 240.03 106.68 0)
+			(at 213.36 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9654,7 +9654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 106.68 0)
+			(at 213.36 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9665,7 +9665,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 240.03 106.68 0)
+			(at 213.36 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9676,7 +9676,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 240.03 106.68 0)
+			(at 213.36 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9687,7 +9687,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 240.03 106.68 0)
+			(at 213.36 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9698,7 +9698,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 240.03 106.68 0)
+			(at 213.36 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9709,7 +9709,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 240.03 106.68 0)
+			(at 213.36 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11237,7 +11237,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 85.09 80.01 0)
+		(at 58.42 106.68 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -11248,7 +11248,7 @@
 		(dnp no)
 		(uuid "d703c960-b41f-4dcf-92b7-58b116693991")
 		(property "Reference" "U401"
-			(at 85.09 88.9 0)
+			(at 58.42 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11258,7 +11258,7 @@
 			)
 		)
 		(property "Value" "LME49740NA"
-			(at 85.09 86.36 0)
+			(at 58.42 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11268,7 +11268,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 85.09 80.01 0)
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11279,7 +11279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 80.01 0)
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11290,7 +11290,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 85.09 80.01 0)
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11301,7 +11301,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 85.09 80.01 0)
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11312,7 +11312,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 85.09 80.01 0)
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11323,7 +11323,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 85.09 80.01 0)
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11334,7 +11334,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 85.09 80.01 0)
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
