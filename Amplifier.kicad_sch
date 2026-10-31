@@ -2453,6 +2453,17 @@
 		)
 		(uuid "3226ceab-d190-48b9-8664-493692093dfd")
 	)
+	(text "可変抵抗"
+		(exclude_from_sim no)
+		(at 270.002 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://akizukidenshi.com/catalog/g/g117473/")
+		)
+		(uuid "366cf7c0-e53c-4778-9a88-ad5200b4e0c2")
+	)
 	(text "出力段"
 		(exclude_from_sim no)
 		(at 175.006 62.484 0)
@@ -7298,8 +7309,7 @@
 	)
 	(symbol
 		(lib_id "MysymbolLibrary:RV_2C")
-		(at 259.08 88.9 0)
-		(mirror y)
+		(at 39.37 88.9 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7309,7 +7319,7 @@
 		(dnp no)
 		(uuid "508ba1f8-7f3a-4a18-904a-cf84565d516f")
 		(property "Reference" "RV401"
-			(at 260.35 87.63 0)
+			(at 38.1 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7320,7 +7330,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 260.35 90.17 0)
+			(at 38.1 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7330,8 +7340,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyLibrary:RV_2C"
-			(at 259.08 88.9 0)
+		(property "Footprint" "samacsys:RK12L12C"
+			(at 39.37 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7342,7 +7352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 88.9 0)
+			(at 39.37 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7353,7 +7363,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 88.9 0)
+			(at 39.37 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10094,7 +10104,8 @@
 	)
 	(symbol
 		(lib_id "MysymbolLibrary:RV_2C")
-		(at 39.37 88.9 0)
+		(at 259.08 88.9 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10104,7 +10115,7 @@
 		(dnp no)
 		(uuid "b3ade334-0019-4d7d-8b90-878cf14c3e27")
 		(property "Reference" "RV401"
-			(at 38.1 87.63 0)
+			(at 260.35 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10115,7 +10126,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 38.1 90.17 0)
+			(at 260.35 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10125,8 +10136,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyLibrary:RV_2C"
-			(at 39.37 88.9 0)
+		(property "Footprint" "samacsys:RK12L12C"
+			(at 259.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10137,7 +10148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 88.9 0)
+			(at 259.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10148,7 +10159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 88.9 0)
+			(at 259.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

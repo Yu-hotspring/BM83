@@ -8389,6 +8389,17 @@
 		)
 		(uuid "f30e5fe2-75c8-4441-a77e-91401f4ec41b")
 	)
+	(text "電解コンデンサ"
+		(exclude_from_sim no)
+		(at 112.776 127.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://akizukidenshi.com/catalog/g/g102719/")
+		)
+		(uuid "fa439dd2-c671-48bd-9bc2-0c6dcf5442c6")
+	)
 	(junction
 		(at 63.5 118.11)
 		(diameter 0)
@@ -13313,7 +13324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 91.1352 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16094,7 +16105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 91.1352 127 0)
 			(hide yes)
 			(show_name no)
