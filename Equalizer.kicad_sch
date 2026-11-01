@@ -3492,7 +3492,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "1.21k"
 			(at 140.97 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3654,7 +3654,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.022u"
 			(at 151.13 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3817,7 +3817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.022u"
 			(at 151.13 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3898,7 +3898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "2200p"
 			(at 179.07 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3980,7 +3980,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2200p"
+		(property "Value" "0.01u"
 			(at 168.91 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,7 +4140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.22u"
 			(at 123.19 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,7 +4151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W6.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm"
 			(at 121.6152 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4693,7 +4693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.022u"
+		(property "Value" "0.1u"
 			(at 140.97 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5107,7 +5107,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "26.7k"
 			(at 154.94 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5189,7 +5189,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "1.21k"
 			(at 113.03 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6148,7 +6148,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "2200p"
 			(at 179.07 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6550,7 +6550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "1u"
 			(at 113.03 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6561,7 +6561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W6.0mm_P5.00mm"
 			(at 114.6048 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6884,7 +6884,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "26.7k"
 			(at 127 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7045,7 +7045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "1.21k"
 			(at 168.91 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7127,7 +7127,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.022u"
+		(property "Value" "0.1u"
 			(at 140.97 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7208,7 +7208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "26.7k"
 			(at 182.88 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8145,7 +8145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.22u"
 			(at 123.19 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8156,7 +8156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W6.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm"
 			(at 121.6152 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9053,7 +9053,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2200p"
+		(property "Value" "0.01u"
 			(at 168.91 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9230,7 +9230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "1u"
 			(at 113.03 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9241,7 +9241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W6.0mm_P5.00mm"
 			(at 114.6048 67.31 0)
 			(hide yes)
 			(show_name no)

@@ -2433,6 +2433,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ボリューム用つまみ"
+		(exclude_from_sim no)
+		(at 272.034 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://akizukidenshi.com/catalog/g/g112530/")
+		)
+		(uuid "0e95794d-76b6-4d8a-b186-3946c2f43923")
+	)
 	(text "Ra=Rb,\nA=(Rc+Rd)/Rd"
 		(exclude_from_sim no)
 		(at 99.568 92.456 0)
@@ -2578,7 +2589,7 @@
 		)
 		(uuid "e8e41209-cec3-45b1-a458-01262a636ea1")
 	)
-	(text "最大電圧，最大ボリュームでクリップしないように設定\nラインIN(MAX)：400mVp-p\nこれに合わせてPCM5102A出力も分圧(約14:1)\nEQで最大+24dB -> 5.5Vp-p\nこれを電圧増幅段で4倍して22Vp-p"
+	(text "最大電圧，最大ボリュームでクリップしないように設定\nラインIN(MAX)：400mVp-p\nこれに合わせてPCM5102A出力も分圧(約14:1)\nEQで最大+10dB -> 4Vp-p\nこれを電圧増幅段で5倍して20Vp-p"
 		(exclude_from_sim no)
 		(at 35.052 127 0)
 		(effects
@@ -6255,7 +6266,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "40k"
 			(at 213.36 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8159,7 +8170,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "40k"
 			(at 85.09 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9234,7 +9245,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "40k"
 			(at 213.36 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9390,7 +9401,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "40k"
 			(at 85.09 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -10,7 +10,7 @@ import cadquery as cq
 ROOT = Path(__file__).resolve().parent
 
 
-def build():
+def build(write_step=True):
     a = cq.Assembly(name="RK12L12C0A0E")
     metal = cq.Color(0.72, 0.73, 0.75)
     plastic = cq.Color(0.16, 0.18, 0.17)
@@ -41,12 +41,14 @@ def build():
     for _, part in a.traverse():
         if part.obj is not None:
             assert part.obj.val().isValid(), part.name
-    a.save(str(ROOT / "RK12L12C0A0E.step"))
-    s = cq.importers.importStep(str(ROOT / "RK12L12C0A0E.step")).val()
+    if write_step:
+        a.save(str(ROOT / "RK12L12C0A0E.step"))
+    s = a.toCompound()
     assert s.isValid()
     b = s.BoundingBox()
     assert abs(b.zmax - 25) < 1e-5
     print(f"STEP valid: {len(s.Solids())} solids, bounds Z={b.zmin:.2f}..{b.zmax:.2f} mm")
+    return a
 
 
 if __name__ == "__main__":
