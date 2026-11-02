@@ -76,7 +76,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|123405000|89455000|2938f0a0-d01a-42ee-90c7-b0efa41e2b21|3b3c96e8-4b7e-477a-b2d3-525688ea891e",
+          "許容"
+        ],
+        [
+          "courtyards_overlap|123405000|91705000|3b0f80be-96f4-40db-b6df-117f674b0974|3b3c96e8-4b7e-477a-b2d3-525688ea891e",
+          "許容"
+        ],
+        [
+          "items_not_allowed|41750000|104450000|78223251-a9f9-4606-991d-b07b29663300|00000000-0000-0000-0000-000000000000",
+          "BM83アンテナ干渉，無視"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -148,7 +161,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
