@@ -9,8 +9,8 @@
 | C119 | 0603 | 1 | 0.33u | [URL](https://www.digikey.jp/ja/products/detail/samsung-electro-mechanics/CL10B334KO8NNNC/3887706) |
 | C120 | 0603 | 1 | 2.2u | [URL](https://akizukidenshi.com/catalog/g/g116077/) |
 | C201, C204 | 0402 | 2 | 2.2n | [URL](https://www.digikey.jp/ja/products/detail/kemet/C0402C222J3GEC7411/8645834) |
-| C205, C212 | 0402 | 2 | 2.2u | [URL](https://www.digikey.jp/ja/products/detail/murata-electronics/GRM155R61H474KE11D/7363098) |
-| C206, C208, C210, C213, C216, C219, C215 | 0402 | 6 | 0.1u | [URL](https://www.digikey.jp/ja/products/detail/murata-electronics/GRM155R71H104KE14D/4906220) |
+| C205, C212 | 0402 | 2 | 2.2u | [URL](https://www.digikey.jp/ja/products/detail/taiyo-yuden/LMK105BJ225KV-F/7403747) |
+| C206, C208, C210, C213, C216, C219, C215 | 0402 | 7 | 0.1u | [URL](https://www.digikey.jp/ja/products/detail/murata-electronics/GRM155R71H104KE14D/4906220) |
 | C207, C209, C211, C214 | CP_Elec_3x5.3 | 4 | 10u | [URL](https://www.digikey.jp/ja/products/detail/w%C3%BCrth-elektronik/865090368008/9836336) |
 | C217 | 0402 | 1 | 0.01u | [URL](https://www.digikey.jp/ja/products/detail/cal-chip-electronics-inc/GMC04X7R103K50NT/22461304) |
 | C218 | 0402 | 1 | 4.7u | [URL](https://www.digikey.jp/ja/products/detail/taiyo-yuden/JMK105BBJ475MV-F/2573874) |
@@ -45,19 +45,20 @@
 | Q401, Q402, Q407, Q408, Q409, Q410, Q415, Q416 | SOT-23-6 | 8 | TPC6901A | [URL](https://akizukidenshi.com/catalog/g/g113875/) |
 | Q403, Q404, Q411, Q412 | TO-126-3_Vertical | 4 | 2SA1359 | [URL](https://akizukidenshi.com/catalog/g/g110042/) |
 | Q405, Q406, Q413, Q414 | TO-126-3_Vertical | 4 | 2SC3422 | [URL](https://akizukidenshi.com/catalog/g/g109669/) |
-| R101, R102, R103, R104, R105, R111, R113, R205, R206, R301, R302, R309, R310, R411, R412, R413, R414, R417, R418, R421, R422 | 0603 | 21 | 10k | [URL](https://akizukidenshi.com/catalog/g/g130355/) |
+| R101, R102, R103, R104, R105, R111, R113, R205, R206, R411, R412, R413, R414, R417, R418, R421, R422 | 0603 | 17 | 10k | [URL](https://akizukidenshi.com/catalog/g/g130355/) |
 | R106, R401, R402, R409, R410, R419, R420, R427, R428 | 2512 | 9 | 1k | [URL](https://akizukidenshi.com/catalog/g/g109461/) |
 | R107 | 0603 | 1 | 200k | [URL](https://www.digikey.jp/ja/products/detail/susumu/RG1608P-204-B-T5/1240508) |
 | R108, R109 | 0603 | 2 | 5.1k | [URL](https://akizukidenshi.com/catalog/g/g130338/) |
 | R110 | CEMENT_RESISTOR_5W | 1 | 50 | [URL](https://akizukidenshi.com/catalog/g/g103995/) |
 | R112 | 0603 | 1 | 220 | [URL](https://akizukidenshi.com/catalog/g/g113833/) |
 | R114, R115, R201, R204 | 0603 | 4 | 100k | [URL](https://akizukidenshi.com/catalog/g/g130357/) |
-| R202, R203 | 0603 | 2 | 470 | [URL](https://akizukidenshi.com/catalog/g/g106471/) |
+| R202, R203 | 0603 | 2 | 470 | [URL](https://akizukidenshi.com/catalog/g/g130349/) |
 | R207, R209 | 0603 | 2 | 13.3k | [URL](https://www.digikey.jp/ja/products/detail/panasonic-industry/ERJ-3EKF1332V/196112) |
 | R208, R210, R211 | 0603 | 3 | 1k | [URL](https://akizukidenshi.com/catalog/g/g111790/) |
-| R303, R304, R305, R311, R312, R313 | 0603 | 3 | 1.21k | [URL](https://www.digikey.jp/ja/products/detail/yageo/RC0603FR-071K21L/726854) |
-| R306, R307, R308, R314, R315, R316 | 0603 | 3 | 26.7k | [URL](https://www.digikey.jp/ja/products/detail/panasonic-industry/ERJ-3EKF2672V/196248) |
-| R403, R404, R405, R406, R423, R424, R425, R426 | R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal | 8 | 2.2 | - |
+| R301, R302, R309, R310 | 0603 | 4 | 3.3k | [URL](https://www.digikey.jp/ja/products/detail/yageo/RC0603FR-073K3L/727126) |
+| R303, R304, R305, R311, R312, R313 | 0603 | 6 | 1.21k | [URL](https://www.digikey.jp/ja/products/detail/yageo/RC0603FR-071K21L/726854) |
+| R306, R307, R308, R314, R315, R316 | 0603 | 6 | 26.7k | [URL](https://www.digikey.jp/ja/products/detail/panasonic-industry/ERJ-3EKF2672V/196248) |
+| R403, R404, R405, R406, R423, R424, R425, R426 | R_Box_L13.0mm_W4.0mm_P9.00mm | 8 | 2.2 | [URL](https://akizukidenshi.com/catalog/g/g117487/) |
 | R407, R408, R415, R416 | 0603 | 4 | 40k | [URL](https://www.digikey.jp/ja/products/detail/yageo/RT0603BRD0740KL/7708329) |
 | RV301, RV302, RV303 | RV_2C | 3 | 10k | [URL](https://akizukidenshi.com/catalog/g/g112576/) |
 | RV401 | RK12L12C | 1 | R | [URL](https://akizukidenshi.com/catalog/g/g117473/) |

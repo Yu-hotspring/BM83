@@ -4887,7 +4887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" "0.22"
 			(at 162.56 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4898,7 +4898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm"
 			(at 165.608 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -5781,7 +5781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" "0.22"
 			(at 162.56 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5792,7 +5792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm"
 			(at 165.608 127 90)
 			(hide yes)
 			(show_name no)
@@ -5944,7 +5944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" "0.22"
 			(at 130.81 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5955,7 +5955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm"
 			(at 127.762 127 90)
 			(hide yes)
 			(show_name no)
@@ -6185,7 +6185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" "0.22"
 			(at 130.81 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6196,7 +6196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm"
 			(at 127.762 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -8652,7 +8652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" "0.22"
 			(at 130.81 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8663,7 +8663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm"
 			(at 127.762 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -8891,7 +8891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" "0.22"
 			(at 162.56 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8902,7 +8902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm"
 			(at 165.608 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -9896,7 +9896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" "0.22"
 			(at 162.56 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9907,7 +9907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm"
 			(at 165.608 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -11439,7 +11439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" "0.22"
 			(at 130.81 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11450,7 +11450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm"
 			(at 127.762 64.77 90)
 			(hide yes)
 			(show_name no)
