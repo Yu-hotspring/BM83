@@ -8222,7 +8222,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(href "https://akizukidenshi.com/catalog/g/g111018/")
 		)
 		(uuid "6ac13d0a-96c7-4a31-ac4f-ea8511b0cbb6")
 	)
@@ -12879,7 +12878,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "50"
 			(at 85.09 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
