@@ -58,7 +58,7 @@
 | R301, R302, R309, R310 | 0603 | 4 | 3.3k | [URL](https://www.digikey.jp/ja/products/detail/yageo/RC0603FR-073K3L/727126) |
 | R303, R304, R305, R311, R312, R313 | 0603 | 6 | 1.21k | [URL](https://www.digikey.jp/ja/products/detail/yageo/RC0603FR-071K21L/726854) |
 | R306, R307, R308, R314, R315, R316 | 0603 | 6 | 26.7k | [URL](https://www.digikey.jp/ja/products/detail/panasonic-industry/ERJ-3EKF2672V/196248) |
-| R403, R404, R405, R406, R423, R424, R425, R426 | R_Box_L13.0mm_W4.0mm_P9.00mm | 8 | 2.2 | [URL](https://akizukidenshi.com/catalog/g/g117487/) |
+| R403, R404, R405, R406, R423, R424, R425, R426 | R_Box_L13.0mm_W4.0mm_P9.00mm | 8 | 0.22 | [URL](https://akizukidenshi.com/catalog/g/g117487/) |
 | R407, R408, R415, R416 | 0603 | 4 | 40k | [URL](https://www.digikey.jp/ja/products/detail/yageo/RT0603BRD0740KL/7708329) |
 | RV301, RV302, RV303 | RV_2C | 3 | 10k | [URL](https://akizukidenshi.com/catalog/g/g112576/) |
 | RV401 | RK12L12C | 1 | R | [URL](https://akizukidenshi.com/catalog/g/g117473/) |
